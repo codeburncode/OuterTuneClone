@@ -988,7 +988,7 @@ class MainActivity : ComponentActivity() {
                                 }
                             }
 
-                            if (BuildConfig.DEBUG) {
+                            /* if (BuildConfig.DEBUG) {
                                 val debugColour = Color.Red
                                 Column(
                                     modifier = Modifier.padding(start = 50.dp, top = 100.dp)
@@ -1014,7 +1014,8 @@ class MainActivity : ComponentActivity() {
                                         color = debugColour
                                     )
                                 }
-                            }
+                            } 
+                            */
                         }
                     }
                 }
